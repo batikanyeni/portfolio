@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutMe from "./components/about-me/AboutMe";
 
 function App() {
   return (
-   <div>
-     Hello
-   </div>
+        <AboutMe/>
   );
 }
 
