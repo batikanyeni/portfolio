@@ -1,6 +1,6 @@
 import './App.css';
 import AboutMe from "./components/about-me/AboutMe";
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
