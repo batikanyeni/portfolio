@@ -14,20 +14,20 @@ const Footer = () => {
                         <div className="flex">
                             <p className="mr-1 text-gray-400">Phone:</p>
                             <a
-                                href="tel:(+90)542-606-22-66"
-                                aria-label="Our phone"
-                                title="Our phone"
+                                href="tel:(+90)5426062266"
+                                aria-label="My Phone"
+                                title="My Phone"
                                 className="transition-colors duration-300 text-gray-400 hover:text-gray-200"
                             >
-                                (+90)542-606-22-66
+                                (+90)5426062266
                             </a>
                         </div>
                         <div className="flex">
                             <p className="mr-1 text-gray-400">Email:</p>
                             <a
                                 href="mailto:batikanyeni@outlook.com"
-                                aria-label="Our email"
-                                title="Our email"
+                                aria-label="My Email"
+                                title="My Email"
                                 className="transition-colors duration-300 text-gray-400 hover:text-gray-200"
                             >
                                 batikanyeni@outlook.com
