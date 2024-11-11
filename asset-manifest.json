@@ -1,17 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8716cbbf.css",
-    "main.js": "/portfolio/static/js/main.686ec168.js",
+    "main.css": "/portfolio/static/css/main.589c6f52.css",
+    "main.js": "/portfolio/static/js/main.ab74ba85.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/login.png": "/portfolio/static/media/login.06ce181bda42f870c6c9.png",
+    "static/media/home.png": "/portfolio/static/media/home.f8ecb403c53088f71ede.png",
+    "static/media/lawyers-page.png": "/portfolio/static/media/lawyers-page.05d1cbe2455b878b75d8.png",
+    "static/media/homepage.png": "/portfolio/static/media/homepage.e15a4e53155c5d0fffc7.png",
+    "static/media/ff-login.png": "/portfolio/static/media/ff-login.c88f2c7d8da3733f1565.png",
+    "static/media/game.png": "/portfolio/static/media/game.4b2b42e63e84aadead38.png",
+    "static/media/register.png": "/portfolio/static/media/register.8a3e3486d9498b36b1bc.png",
+    "static/media/hareketler.png": "/portfolio/static/media/hareketler.90aee455abb3fd751266.png",
+    "static/media/help.png": "/portfolio/static/media/help.ae18394b3ff35cf52dd4.png",
+    "static/media/doviz_al_sat_parite.png": "/portfolio/static/media/doviz_al_sat_parite.069730b7563fbdc03a12.png",
+    "static/media/musteri_hesap_bilgileri.png": "/portfolio/static/media/musteri_hesap_bilgileri.7667a534079763642b85.png",
     "static/media/estü.jpg": "/portfolio/static/media/estü.55e0757e3ca07cb0538d.jpg",
+    "static/media/premium.png": "/portfolio/static/media/premium.4abbec3319ca739d94fc.png",
+    "static/media/ai-lawyer-chat.png": "/portfolio/static/media/ai-lawyer-chat.d3806e2a9b68dab4e21c.png",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.79edda533c2b171a1818.jpg",
+    "static/media/sign up.png": "/portfolio/static/media/sign up.1aa430b0d47cfcf4a7c6.png",
+    "static/media/github.png": "/portfolio/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/portfolio/index.html",
-    "main.8716cbbf.css.map": "/portfolio/static/css/main.8716cbbf.css.map",
-    "main.686ec168.js.map": "/portfolio/static/js/main.686ec168.js.map",
+    "main.589c6f52.css.map": "/portfolio/static/css/main.589c6f52.css.map",
+    "main.ab74ba85.js.map": "/portfolio/static/js/main.ab74ba85.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8716cbbf.css",
-    "static/js/main.686ec168.js"
+    "static/css/main.589c6f52.css",
+    "static/js/main.ab74ba85.js"
   ]
 }
