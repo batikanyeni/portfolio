@@ -42,17 +42,16 @@ const AboutMe = () => {
                         <img src={profileimg} alt="profile-pic" className="w-64 h-64 rounded-full overflow-hidden object-cover object-[0_25%]" />
                     </div>
                     <p className="mb-6 text-center text-base font-thin tracking-wide text-gray-300 md:text-lg">
-                        Hello! I'm Batıkan Yeni. I am a fresh graduate from Eskişehir Technical University Computer Enginnering Department and my main interest is Fullstack web development.
+                        Hello! I'm Batıkan Yeni. I am a fresh graduate from Eskişehir Technical University Computer Enginnering Department and I specialize in fullstack web development.
                     </p>
                     <div className={"grid items-center justify-center"}>
                         <p className={`text-center text-base font-thin tracking-wide text-gray-300 md:text-lg mb-3 overflow-hidden transition-all duration-500 ease-in-out ${expanded ? "block max-h-96 opacity-100 mb-3" : "max-h-0 opacity-0"} `}>
                             Hello! I'm Eskişehir Technical University Computer Engineering graduate Batıkan Yeni. During my education I mostly had
                             experience with Java and Javascript. I have participated in team and personal projects using web development technologies like
                             Spring-Boot,React and Angular. I have learned how to apply Design patterns and create object orianted apps. In my second year
-                            in University I went to Poland with Erasmus project and met with many people from different backgrounds and cultures. This
-                            experience taught me how to work with different people and find value in their ideas. I enjoy tackling hard problems and create
-                            software that will be useful for many people. For this purpose I am eager to improve myself and I want to have experience in
-                            innovative work enviroment.
+                            in University I went to Poland with Erasmus project and met with many people from different backgrounds and cultures. Focusing on
+                            the work I have and pushing trough until it is finished has become my strong suit. Now I am finished with my education and I want to
+                            get working with real world applications. You can reach me by info at the contact section.
                         </p>
                         <p className={`${textView} max-w-md text-xs font-thin tracking-wide text-gray-500 sm:text-sm sm:mx-auto mb-4`}>
                             Expand To Read More

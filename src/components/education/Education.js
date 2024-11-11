@@ -28,6 +28,7 @@ const Education = () => {
                     <div className="flex items-center space-x-4">
                         <p className="text-gray-900">2019-2024</p>
                         <p className="text-gray-900">3.2 GPA</p>
+                        <p className="text-gray-900">Bachelor Degree</p>
                     </div>
                 </div>
                 <div>

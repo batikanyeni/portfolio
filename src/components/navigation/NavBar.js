@@ -3,11 +3,6 @@ import {useState} from "react";
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const navClick = (section) => {
-        if(section.equals("About Me")){
-
-        }
-    }
     return (
         <div className="bg-gray-900 fixed w-full z-10">
             <div className="px-4 py-4 mx-auto lg:py-4 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -72,6 +67,11 @@ const NavBar = () => {
                                 aria-label="Projects"
                                 title="Projects"
                                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                onClick={() => {
+                                    const element = document.getElementById("projects");
+                                    element?.scrollIntoView({behavior: "smooth"});
+                                    setIsMenuOpen(false);
+                                }}
                             >
                                 Projects
                             </button>
@@ -81,6 +81,11 @@ const NavBar = () => {
                                 aria-label="Contact"
                                 title="Contact"
                                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                onClick={() => {
+                                    const element = document.getElementById("contact");
+                                    element?.scrollIntoView({behavior: "smooth"});
+                                    setIsMenuOpen(false);
+                                }}
                             >
                                 Contact
                             </button>
@@ -138,6 +143,7 @@ const NavBar = () => {
                                                     onClick={() => {
                                                         const element = document.getElementById("about-me");
                                                         element?.scrollIntoView({ behavior: "smooth" });
+                                                        setIsMenuOpen(false);
                                                     }}
                                                 >
                                                     About Me
@@ -151,6 +157,7 @@ const NavBar = () => {
                                                     onClick={() => {
                                                         const element = document.getElementById("education");
                                                         element?.scrollIntoView({behavior: "smooth"});
+                                                        setIsMenuOpen(false);
                                                     }}
                                                 >
                                                     Education
@@ -164,6 +171,7 @@ const NavBar = () => {
                                                     onClick={() => {
                                                         const element = document.getElementById("skills");
                                                         element?.scrollIntoView({behavior: "smooth"});
+                                                        setIsMenuOpen(false);
                                                     }}
                                                 >
                                                     Skills
@@ -177,6 +185,7 @@ const NavBar = () => {
                                                     onClick={() => {
                                                         const element = document.getElementById("experience");
                                                         element?.scrollIntoView({behavior: "smooth"});
+                                                        setIsMenuOpen(false);
                                                     }}
                                                 >
                                                     Experience
@@ -187,6 +196,11 @@ const NavBar = () => {
                                                     aria-label="Projects"
                                                     title="Projects"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                                    onClick={() => {
+                                                        const element = document.getElementById("projects");
+                                                        element?.scrollIntoView({behavior: "smooth"});
+                                                        setIsMenuOpen(false);
+                                                    }}
                                                 >
                                                     Projects
                                                 </button>
@@ -196,6 +210,11 @@ const NavBar = () => {
                                                     aria-label="Contact"
                                                     title="Contact"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                                    onClick={() => {
+                                                        const element = document.getElementById("contact");
+                                                        element?.scrollIntoView({behavior: "smooth"});
+                                                        setIsMenuOpen(false);
+                                                    }}
                                                 >
                                                     Contact
                                                 </button>

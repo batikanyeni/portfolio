@@ -7,7 +7,7 @@ const Skills = () =>{
                     My Skills
                 </h5>
                 <div className="grid gap-1 row-gap-4 lg:grid-cols-5 md:grid-cols-5 h-52 overflow-y-auto">
-                    <ul className="space-y-3">
+                    <ul className="space-y-1 md:space-y-3 lg:space-y-3 ">
                         <li className="flex items-start">
             <span className="mr-1">
               <svg
@@ -63,7 +63,7 @@ const Skills = () =>{
                             Spring Boot
                         </li>
                     </ul>
-                    <ul className="space-y-3">
+                    <ul className="space-y-1 md:space-y-3 lg:space-y-3">
                         <li className="flex items-start">
             <span className="mr-1">
               <svg
@@ -119,7 +119,7 @@ const Skills = () =>{
                             TypeScript
                         </li>
                     </ul>
-                    <ul className="space-y-3">
+                    <ul className="space-y-1 md:space-y-3 lg:space-y-3">
                         <li className="flex items-start">
             <span className="mr-1">
               <svg
@@ -175,7 +175,7 @@ const Skills = () =>{
                             Css
                         </li>
                     </ul>
-                    <ul className="space-y-3">
+                    <ul className="space-y-1 md:space-y-3 lg:space-y-3">
                         <li className="flex items-start">
             <span className="mr-1">
               <svg
@@ -231,7 +231,7 @@ const Skills = () =>{
                             OOP
                         </li>
                     </ul>
-                    <ul className="space-y-3">
+                    <ul className="space-y-1 md:space-y-3 lg:space-y-3">
                         <li className="flex items-start">
             <span className="mr-1">
               <svg
