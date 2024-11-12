@@ -1,6 +1,27 @@
 .swiper-button-prev{
     color: gray;
+    transition: ease-in-out 300ms;
+
 }
 .swiper-button-next{
     color: gray;
+    transition: ease-in-out 300ms;
+}
+
+.swiper-button-prev:hover{
+    transform: scale(1.2);
+}
+.swiper-button-next:hover{
+    transform: scale(1.2);
+}
+
+
+
+@media screen and (max-width: 648px) {
+    .swiper-button-prev{
+        display: none;
+    }
+    .swiper-button-next{
+        display: none;
+    }
 }

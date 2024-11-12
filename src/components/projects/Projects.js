@@ -1,6 +1,7 @@
 import {Pagination} from 'antd';
 import {useState} from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react"
 import fflogin from "../../assets/images/finflex-images/ff-login.png"
 import ffexchange from "../../assets/images/finflex-images/doviz_al_sat_parite.png"
 import ffcustomer from "../../assets/images/finflex-images/musteri_hesap_bilgileri.png"
@@ -22,9 +23,38 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './Projects.css';
+import {Box, Modal} from "@mui/material";
+
+const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    bgcolor: 'black',
+    border: '2px solid #000',
+    boxShadow: 24,
+};
 const Projects = () => {
     const[projectNum, setProjectNum] = useState(1);
+    const [open, setOpen] = useState(false);
+    const [imgSrc,setImgSrc] = useState(null)
+    const handleOpen = (src) => {
+        setOpen(true);
+        setImgSrc(src);
+    }
+    const handleClose = () => setOpen(false);
     return (
+        <React.Fragment>
+            <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+            >
+                <Box sx={style} className="w-screen h-52 sm:w-4/5 sm:h-auto">
+                        <img className="h-full" src={imgSrc} alt="modalimg"/>
+                </Box>
+            </Modal>
         <div className="bg-amber-100 pt-16 rounded-t-3xl">
         <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div className="w-full mb-10 grid " id="projects">
@@ -57,13 +87,14 @@ const Projects = () => {
                         slidesPerView={1}
                         className="w-full rounded shadow-lg sm:h-96 hover:cursor-pointer"
                         pagination={{ clickable: true }}
+                        navigation={true}
                         modules={[Navigation,pgntn]}
                     >
-                        <SwiperSlide><img className="h-full" src={fflogin} alt="login_photo"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={ffexchange} alt="exhange-photo"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={fftransactions}
+                        <SwiperSlide><img onClick={() => handleOpen(fflogin)} className="h-full" src={fflogin} alt="login_photo"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(ffexchange)} className="h-full" src={ffexchange} alt="exhange-photo"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(fftransactions)} className="h-full" src={fftransactions}
                                           alt="transactions-photo"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={ffcustomer} alt="customer-photo"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(ffcustomer)} className="h-full" src={ffcustomer} alt="customer-photo"/></SwiperSlide>
                         ...
                     </Swiper>
                 </div>
@@ -94,6 +125,7 @@ const Projects = () => {
                         slidesPerView={1}
                         className="w-full rounded shadow-lg sm:h-96 hover:cursor-pointer"
                         pagination={{ clickable: true }}
+                        navigation={true}
                         modules={[Navigation,pgntn]}
                     >
                         <SwiperSlide><img className="h-full" src={IWMLhome} alt="home"/></SwiperSlide>
@@ -128,6 +160,7 @@ const Projects = () => {
                         slidesPerView={1}
                         className="w-full rounded shadow-lg sm:h-96 hover:cursor-pointer"
                         pagination={{ clickable: true }}
+                        navigation={true}
                         modules={[Navigation,pgntn]}
                     >
                         <SwiperSlide><img className="h-full" src={SPhome} alt="sphome"/></SwiperSlide>
@@ -165,6 +198,7 @@ const Projects = () => {
                         slidesPerView={1}
                         className="w-full rounded shadow-lg sm:h-96 hover:cursor-pointer"
                         pagination={{ clickable: true }}
+                        navigation={true}
                         modules={[Navigation,pgntn]}
                     >
                         <SwiperSlide><img className="h-full" src={GHomeLogin} alt="GhomeLogin"/></SwiperSlide>
@@ -176,6 +210,7 @@ const Projects = () => {
             )}
         </div>
     </div>
+        </React.Fragment>
     )
 };
 export default Projects;
