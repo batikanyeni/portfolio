@@ -1644,6 +1644,10 @@ input[type="range"]::-ms-fill-lower {
   min-width: 2.25rem;
 }
 
+.min-w-full {
+  min-width: 100%;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }

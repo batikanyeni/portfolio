@@ -52,7 +52,7 @@ const Projects = () => {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style} className="w-screen h-52 sm:w-4/5 sm:h-auto">
-                        <img className="h-full" src={imgSrc} alt="modalimg"/>
+                        <img className="w-full h-full" src={imgSrc} alt="modalimg"/>
                 </Box>
             </Modal>
         <div className="bg-amber-100 pt-16 rounded-t-3xl">
@@ -128,10 +128,10 @@ const Projects = () => {
                         navigation={true}
                         modules={[Navigation,pgntn]}
                     >
-                        <SwiperSlide><img className="h-full" src={IWMLhome} alt="home"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={IWMLregister} alt="register"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={IWMLlawyers} alt="lawyers"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={IWMLailawyer} alt="ailawyer"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(IWMLhome)} className="h-full" src={IWMLhome} alt="home"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(IWMLregister)} className="h-full" src={IWMLregister} alt="register"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(IWMLlawyers)} className="h-full" src={IWMLlawyers} alt="lawyers"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(IWMLailawyer)} className="h-full" src={IWMLailawyer} alt="ailawyer"/></SwiperSlide>
                         ...
                     </Swiper>
                 </div>
@@ -163,10 +163,10 @@ const Projects = () => {
                         navigation={true}
                         modules={[Navigation,pgntn]}
                     >
-                        <SwiperSlide><img className="h-full" src={SPhome} alt="sphome"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={SPsingup} alt="spregister"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={SPremium} alt="spremium"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={SPhelp} alt="sphelp"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(SPhome)} className="h-full" src={SPhome} alt="sphome"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(SPsingup)} className="h-full" src={SPsingup} alt="spregister"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(SPremium)} className="h-full" src={SPremium} alt="spremium"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(SPhelp)} className="h-full" src={SPhelp} alt="sphelp"/></SwiperSlide>
                         ...
                     </Swiper>
                 </div>
@@ -201,9 +201,9 @@ const Projects = () => {
                         navigation={true}
                         modules={[Navigation,pgntn]}
                     >
-                        <SwiperSlide><img className="h-full" src={GHomeLogin} alt="GhomeLogin"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={GHome} alt="Ghome"/></SwiperSlide>
-                        <SwiperSlide><img className="h-full" src={GHomeGame} alt="GhomeGame"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(GHomeLogin)} className="h-full" src={GHomeLogin} alt="GhomeLogin"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(GHome)} className="h-full" src={GHome} alt="Ghome"/></SwiperSlide>
+                        <SwiperSlide><img onClick={() => handleOpen(GHomeGame)} className="h-full" src={GHomeGame} alt="GhomeGame"/></SwiperSlide>
                         ...
                     </Swiper>
                 </div>
