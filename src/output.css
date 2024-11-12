@@ -1524,6 +1524,10 @@ input[type="range"]::-ms-fill-lower {
   max-height: 90dvh;
 }
 
+.max-h-full {
+  max-height: 100%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -2873,6 +2877,14 @@ input[type="range"]::-ms-fill-lower {
 
 .object-\[0_25\%\] {
   object-position: 0 25%;
+}
+
+.object-center {
+  object-position: center;
+}
+
+.object-bottom {
+  object-position: bottom;
 }
 
 .p-0\.5 {

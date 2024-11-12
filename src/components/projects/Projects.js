@@ -95,7 +95,6 @@ const Projects = () => {
                         <SwiperSlide><img onClick={() => handleOpen(fftransactions)} className="h-full" src={fftransactions}
                                           alt="transactions-photo"/></SwiperSlide>
                         <SwiperSlide><img onClick={() => handleOpen(ffcustomer)} className="h-full" src={ffcustomer} alt="customer-photo"/></SwiperSlide>
-                        ...
                     </Swiper>
                 </div>
             )}
@@ -132,7 +131,6 @@ const Projects = () => {
                         <SwiperSlide><img onClick={() => handleOpen(IWMLregister)} className="h-full" src={IWMLregister} alt="register"/></SwiperSlide>
                         <SwiperSlide><img onClick={() => handleOpen(IWMLlawyers)} className="h-full" src={IWMLlawyers} alt="lawyers"/></SwiperSlide>
                         <SwiperSlide><img onClick={() => handleOpen(IWMLailawyer)} className="h-full" src={IWMLailawyer} alt="ailawyer"/></SwiperSlide>
-                        ...
                     </Swiper>
                 </div>
             )}
@@ -167,7 +165,6 @@ const Projects = () => {
                         <SwiperSlide><img onClick={() => handleOpen(SPsingup)} className="h-full" src={SPsingup} alt="spregister"/></SwiperSlide>
                         <SwiperSlide><img onClick={() => handleOpen(SPremium)} className="h-full" src={SPremium} alt="spremium"/></SwiperSlide>
                         <SwiperSlide><img onClick={() => handleOpen(SPhelp)} className="h-full" src={SPhelp} alt="sphelp"/></SwiperSlide>
-                        ...
                     </Swiper>
                 </div>
             )}
@@ -204,7 +201,6 @@ const Projects = () => {
                         <SwiperSlide><img onClick={() => handleOpen(GHomeLogin)} className="h-full" src={GHomeLogin} alt="GhomeLogin"/></SwiperSlide>
                         <SwiperSlide><img onClick={() => handleOpen(GHome)} className="h-full" src={GHome} alt="Ghome"/></SwiperSlide>
                         <SwiperSlide><img onClick={() => handleOpen(GHomeGame)} className="h-full" src={GHomeGame} alt="GhomeGame"/></SwiperSlide>
-                        ...
                     </Swiper>
                 </div>
             )}
