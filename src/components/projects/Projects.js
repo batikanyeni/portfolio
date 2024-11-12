@@ -85,7 +85,7 @@ const Projects = () => {
                     </div>
                     <Swiper
                         slidesPerView={1}
-                        className="w-full rounded shadow-lg sm:h-96 hover:cursor-pointer"
+                        className="w-full rounded shadow-lg max-h-96 hover:cursor-pointer"
                         pagination={{ clickable: true }}
                         navigation={true}
                         modules={[Navigation,pgntn]}

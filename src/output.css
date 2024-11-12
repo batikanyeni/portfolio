@@ -1512,6 +1512,10 @@ input[type="range"]::-ms-fill-lower {
   height: 12rem;
 }
 
+.h-max {
+  height: max-content;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -5950,6 +5954,10 @@ code {
 
   .sm\:h-auto {
     height: auto;
+  }
+
+  .sm\:max-h-96 {
+    max-height: 24rem;
   }
 
   .sm\:w-10 {
