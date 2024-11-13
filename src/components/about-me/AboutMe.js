@@ -46,8 +46,7 @@ const AboutMe = () => {
                     </p>
                     <div className={"grid items-center justify-center"}>
                         <p className={`text-center text-base font-thin tracking-wide text-gray-300 md:text-lg mb-3 overflow-hidden transition-all duration-500 ease-in-out ${expanded ? "block max-h-96 opacity-100 mb-3" : "max-h-0 opacity-0"} `}>
-                            Hello! I'm Eskişehir Technical University Computer Engineering graduate Batıkan Yeni. During my education I mostly had
-                            experience with Java and Javascript. I have participated in team and personal projects using web development technologies like
+                            During my education I mostly had experience with Java and Javascript. I have participated in team and personal projects using web development technologies like
                             Spring-Boot,React and Angular. I have learned how to apply Design patterns and create object orianted apps. In my second year
                             in University I went to Poland with Erasmus project and met with many people from different backgrounds and cultures. Focusing on
                             the work I have and pushing trough until it is finished has become my strong suit. Now I am finished with my education and I want to
