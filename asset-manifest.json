@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9dd144a5.css",
-    "main.js": "/portfolio/static/js/main.a2bfbcae.js",
+    "main.css": "/portfolio/static/css/main.7d606a99.css",
+    "main.js": "/portfolio/static/js/main.674a15b7.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/login.png": "/portfolio/static/media/login.06ce181bda42f870c6c9.png",
     "static/media/home.png": "/portfolio/static/media/home.f8ecb403c53088f71ede.png",
@@ -17,17 +17,18 @@
     "static/media/estü.jpg": "/portfolio/static/media/estü.55e0757e3ca07cb0538d.jpg",
     "static/media/premium.png": "/portfolio/static/media/premium.4abbec3319ca739d94fc.png",
     "static/media/ai-lawyer-chat.png": "/portfolio/static/media/ai-lawyer-chat.d3806e2a9b68dab4e21c.png",
+    "static/media/polanduni.jpg": "/portfolio/static/media/polanduni.c24a0751173a694ef9c0.jpg",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.79edda533c2b171a1818.jpg",
     "static/media/sign up.png": "/portfolio/static/media/sign up.1aa430b0d47cfcf4a7c6.png",
     "static/media/github.png": "/portfolio/static/media/github.a855c3975c028d8069f5.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/portfolio/index.html",
-    "main.9dd144a5.css.map": "/portfolio/static/css/main.9dd144a5.css.map",
-    "main.a2bfbcae.js.map": "/portfolio/static/js/main.a2bfbcae.js.map",
+    "main.7d606a99.css.map": "/portfolio/static/css/main.7d606a99.css.map",
+    "main.674a15b7.js.map": "/portfolio/static/js/main.674a15b7.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dd144a5.css",
-    "static/js/main.a2bfbcae.js"
+    "static/css/main.7d606a99.css",
+    "static/js/main.674a15b7.js"
   ]
 }
